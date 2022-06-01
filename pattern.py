@@ -16,4 +16,8 @@ x += 1
         print("&#92r")
     k = n - 2
     x = 65
+for i in range(n, -1, -1):
+        for j in range(k, 0, -1):
+            print(end=" ")
+        k = k + 1
 pattern(5)
